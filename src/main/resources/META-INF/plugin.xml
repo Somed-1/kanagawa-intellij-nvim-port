@@ -1,0 +1,24 @@
+<idea-plugin>
+  <id>local.kanagawa.intellij.neovim</id>
+  <name>Kanagawa Neovim Port</name>
+  <version>1.1.0</version>
+  <vendor url="https://github.com/Somed-1/kanagawa-intellij-nvim-port">Somed-1</vendor>
+  <description><![CDATA[
+    Kanagawa Wave, Dragon and Lotus palettes and highlight styles from rebelot/kanagawa.nvim.
+    Three themes in one plugin, with dimmed UI surfaces, dialogs, tabs, completion and search.
+    Includes language mappings, diagnostics, Git/diff colors and the original terminal palette.
+    Original colors by Tommaso Laurenzi. Also credits frykher/jetbrains-kanagawa-theme.
+    Developed with AI assistance (OpenAI Codex).
+  ]]></description>
+  <idea-version since-build="262" />
+  <depends>com.intellij.modules.platform</depends>
+  <depends optional="true" config-file="kanagawa-java.xml">com.intellij.java</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme id="Kanagawa Wave (Neovim)" path="themes/KanagawaWaveNeovim.xml" />
+    <themeProvider id="f56a6b44-8174-45ab-9366-c821d0dd27fa" path="/themes/KanagawaWaveNeovim.theme.json" />
+    <bundledColorScheme id="Kanagawa Dragon (Neovim)" path="themes/KanagawaDragonNeovim.xml" />
+    <themeProvider id="ae208ac8-5148-47cb-9c05-5173d0e6f823" path="/themes/KanagawaDragonNeovim.theme.json" />
+    <bundledColorScheme id="Kanagawa Lotus (Neovim)" path="themes/KanagawaLotusNeovim.xml" />
+    <themeProvider id="2b8a9eaf-d48a-42ac-b394-229696ac9a73" path="/themes/KanagawaLotusNeovim.theme.json" />
+  </extensions>
+</idea-plugin>

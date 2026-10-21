@@ -1,0 +1,14 @@
+{
+  "project": "rebelot/kanagawa.nvim",
+  "url": "https://github.com/rebelot/kanagawa.nvim",
+  "commit": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3",
+  "intellijBuild": "IU-262.8665.337",
+  "upstreamLicense": "MIT",
+  "intellijThemeMetadataLicense": "Apache-2.0",
+  "uiPolicy": "Each variant keeps its original editor palette and uses its own dimmed background roles for surrounding UI.",
+  "themes": [
+    "wave",
+    "dragon",
+    "lotus"
+  ]
+}

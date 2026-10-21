@@ -1,0 +1,13 @@
+build/
+dist/
+__pycache__/
+.idea/
+*.iml
+backups/
+.env
+.env.*
+*.key
+*.pem
+*.log
+docs/screenshots/complete.txt
+docs/screenshots/error.txt
