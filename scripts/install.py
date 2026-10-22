@@ -15,7 +15,7 @@ THEME_ID = "f56a6b44-8174-45ab-9366-c821d0dd27fa"
 PLUGIN_ID = "io.github.somed1.kanagawa.nvim"
 LEGACY_PLUGIN_ID = "local.kanagawa.intellij.neovim"
 SLUG = "kanagawa-neovim-port"
-VERSION = "1.1.1"
+VERSION = "1.1.2"
 
 
 def atomic_write(path, data):

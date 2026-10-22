@@ -1,6 +1,6 @@
 # JetBrains Marketplace submission
 
-Version **1.1.1** was submitted on **2026-10-22** under the **Somed-1** vendor:
+Version **1.1.2** was submitted on **2026-10-22** under the **Somed-1** vendor:
 https://plugins.jetbrains.com/plugin/35388-kanagawa-neovim-port
 
 The upload was accepted and is awaiting JetBrains review. The listing includes
@@ -17,7 +17,7 @@ For future submissions:
 
 1. Sign in at https://plugins.jetbrains.com and create a vendor profile if
    needed. The existing profile is Somed-1.
-2. Choose **Upload plugin** and upload `dist/kanagawa-neovim-port-1.1.1.zip`.
+2. Choose **Upload plugin** and upload `dist/kanagawa-neovim-port-1.1.2.zip`.
 3. Use **Kanagawa Neovim Port** as the name, **Themes** as the category, and the
    repository README as the basis for the description.
 4. Set the source and issue tracker URLs to this GitHub repository, choose MIT

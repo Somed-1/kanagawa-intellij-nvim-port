@@ -26,7 +26,7 @@ can differ from Neovim's.
 
 ## Manual installation
 
-1. Download **kanagawa-neovim-port-1.1.1.zip** from
+1. Download **kanagawa-neovim-port-1.1.2.zip** from
    [GitHub Releases](https://github.com/Somed-1/kanagawa-intellij-nvim-port/releases).
 2. Open **Settings → Plugins → ⚙ → Install Plugin from Disk** and select the ZIP.
 3. Restart the IDE.
@@ -39,7 +39,7 @@ Upgrading from the GitHub-only 1.1.0 release: uninstall that version before
 installing 1.1.1. Marketplace requires a different plugin ID; the theme names
 and colors are unchanged. The local installation script replaces it directly.
 
-Version 1.1.1 has been submitted to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35388-kanagawa-neovim-port)
+Version 1.1.2 has been submitted to [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35388-kanagawa-neovim-port)
 and is awaiting JetBrains review. Use manual installation until it is approved.
 
 ## Credits

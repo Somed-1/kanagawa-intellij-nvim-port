@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>io.github.somed1.kanagawa.nvim</id>
   <name>Kanagawa Neovim Port</name>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <vendor url="https://github.com/Somed-1/kanagawa-intellij-nvim-port">Somed-1</vendor>
   <description><![CDATA[
     Kanagawa Wave, Dragon and Lotus palettes and highlight styles from rebelot/kanagawa.nvim.
@@ -10,6 +10,7 @@
     Original colors by Tommaso Laurenzi. Also credits frykher/jetbrains-kanagawa-theme.
     Developed with AI assistance (OpenAI Codex).
   ]]></description>
+  <change-notes>Replaced the plugin logo with three stacked palette rectangles on the Kanagawa Wave background.</change-notes>
   <idea-version since-build="262" />
   <depends>com.intellij.modules.platform</depends>
   <depends optional="true" config-file="kanagawa-java.xml">com.intellij.java</depends>

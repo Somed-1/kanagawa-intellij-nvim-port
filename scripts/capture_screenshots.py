@@ -35,7 +35,7 @@ shutil.copy2(ROOT / "examples/ThemeDemo.java", project / "src/ThemeDemo.java")
 (config / "options/laf.xml").write_text('<application><component name="LafManager"><laf themeId="f56a6b44-8174-45ab-9366-c821d0dd27fa"/></component></application>')
 # The screenshot project only needs the free Java functionality.
 (config / "disabled_plugins.txt").write_text("com.intellij.modules.ultimate\n")
-jar = ROOT / "dist/kanagawa-neovim-port-1.1.1.jar"
+jar = ROOT / "dist/kanagawa-neovim-port-1.1.2.jar"
 theme_dir = plugins / "kanagawa-neovim-port/lib"
 theme_dir.mkdir(parents=True, exist_ok=True)
 shutil.copy2(jar, theme_dir / jar.name)
