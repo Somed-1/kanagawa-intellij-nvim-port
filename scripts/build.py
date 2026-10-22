@@ -15,7 +15,7 @@ from zipfile import ZIP_DEFLATED, ZipFile, ZipInfo
 ROOT = Path(__file__).resolve().parents[1]
 RES = ROOT / "src/main/resources"
 SLUG = "kanagawa-neovim-port"
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 VARIANTS = ("wave", "dragon", "lotus")
 THEME_IDS = {
     "wave": "f56a6b44-8174-45ab-9366-c821d0dd27fa",

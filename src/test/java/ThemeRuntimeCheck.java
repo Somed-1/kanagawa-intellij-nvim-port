@@ -45,7 +45,7 @@ public class ThemeRuntimeCheck {
         String variant = args.length > 1 ? args[1] : "wave";
         String stem = "Kanagawa" + Character.toUpperCase(variant.charAt(0)) + variant.substring(1) + "Neovim";
         String displayName = "Kanagawa " + Character.toUpperCase(variant.charAt(0)) + variant.substring(1) + " (Neovim)";
-        var jar = root.resolve("dist/kanagawa-neovim-port-1.1.0.jar");
+        var jar = root.resolve("dist/kanagawa-neovim-port-1.1.1.jar");
         try (var loader = new URLClassLoader(new java.net.URL[]{jar.toUri().toURL()}, ThemeRuntimeCheck.class.getClassLoader())) {
             var bean = read(root.resolve("src/main/resources/themes/" + stem + ".theme.json"));
             var parent = read(root.resolve("reference/intellij/expUI_" + (variant.equals("lotus") ? "light" : "dark") + ".theme.json"));

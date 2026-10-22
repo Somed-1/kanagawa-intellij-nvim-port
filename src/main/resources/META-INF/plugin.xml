@@ -1,7 +1,7 @@
 <idea-plugin>
-  <id>local.kanagawa.intellij.neovim</id>
+  <id>io.github.somed1.kanagawa.nvim</id>
   <name>Kanagawa Neovim Port</name>
-  <version>1.1.0</version>
+  <version>1.1.1</version>
   <vendor url="https://github.com/Somed-1/kanagawa-intellij-nvim-port">Somed-1</vendor>
   <description><![CDATA[
     Kanagawa Wave, Dragon and Lotus palettes and highlight styles from rebelot/kanagawa.nvim.

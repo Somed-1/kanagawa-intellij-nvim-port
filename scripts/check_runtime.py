@@ -11,7 +11,7 @@ args = parser.parse_args()
 ide = args.ide.resolve()
 output = ROOT / "build/runtime-check"
 output.mkdir(parents=True, exist_ok=True)
-classpath = f"{ide}/lib/*:{ide}/plugins/java/lib/*:{ROOT}/dist/kanagawa-neovim-port-1.1.0.jar"
+classpath = f"{ide}/lib/*:{ide}/plugins/java/lib/*:{ROOT}/dist/kanagawa-neovim-port-1.1.1.jar"
 subprocess.run([str(ide / "jbr/bin/javac"), "-cp", classpath, "-d", str(output),
                 str(ROOT / "src/test/java/ThemeRuntimeCheck.java")], check=True)
 for variant in ("wave", "dragon", "lotus"):

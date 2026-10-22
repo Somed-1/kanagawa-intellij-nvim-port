@@ -12,9 +12,10 @@ from zipfile import ZipFile
 ROOT = Path(__file__).resolve().parents[1]
 NAME = "Kanagawa Wave (Neovim)"
 THEME_ID = "f56a6b44-8174-45ab-9366-c821d0dd27fa"
-PLUGIN_ID = "local.kanagawa.intellij.neovim"
+PLUGIN_ID = "io.github.somed1.kanagawa.nvim"
+LEGACY_PLUGIN_ID = "local.kanagawa.intellij.neovim"
 SLUG = "kanagawa-neovim-port"
-VERSION = "1.1.0"
+VERSION = "1.1.1"
 
 
 def atomic_write(path, data):
@@ -65,7 +66,7 @@ def install():
     if legacy.exists():
         for previous in (legacy / "lib").glob("*.jar"):
             with ZipFile(previous) as archive:
-                if ET.fromstring(archive.read("META-INF/plugin.xml")).findtext("id") != PLUGIN_ID:
+                if ET.fromstring(archive.read("META-INF/plugin.xml")).findtext("id") not in (PLUGIN_ID, LEGACY_PLUGIN_ID):
                     raise RuntimeError("Unexpected plugin in legacy installation; refusing to replace it")
         shutil.copytree(legacy, backup / legacy.name)
     atomic_write(dest / "lib" / jar.name, jar.read_bytes())
